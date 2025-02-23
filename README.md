@@ -10,11 +10,16 @@ Follow this guide to install Klipper on your Ender 3 V3 SE: [Klipper Installatio
 > The guide uses a different configuration file available here: [Bootuz-Dinamon Ender 3 V3 SE Klipper Config](https://github.com/bootuz-dinamon/ender3-v3-se-full-klipper)  
 > However, my configuration is derived from it, with several issues fixed and improved macros. You are free to use either configuration based on your preference.
 
-## Slicer Setup (OrcaSlicer/Creality Print)
+## Slicer Setup 
 
-### Start G-Code
+### Start G-Code (OrcaSlicer/Creality Print)
 ```ini
 PRINT_START BED=[bed_temperature_initial_layer_single] EXTRUDER=[nozzle_temperature_initial_layer]
+```
+
+### Start G-Code (Cura)
+```ini
+PRINT_START BED={material_bed_temperature} EXTRUDER={material_print_temperature}
 ```
 
 ### End G-Code
