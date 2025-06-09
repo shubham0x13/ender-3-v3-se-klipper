@@ -10,7 +10,10 @@ Follow this guide to install Klipper on your Ender 3 V3 SE: [Klipper Installatio
 > The guide uses a different configuration file available here: [Bootuz-Dinamon Ender 3 V3 SE Klipper Config](https://github.com/bootuz-dinamon/ender3-v3-se-full-klipper)  
 > However, my configuration is derived from it, with several issues fixed and improved macros. You are free to use either configuration based on your preference.
 
-## Slicer Setup 
+## Slicer Setup
+
+>[!IMPORTANT]
+> Enable `Exclude Objects` and `Label Objects` in your slicer settings for adaptive bed mesh and purge to function correctly.
 
 ### Start G-Code (OrcaSlicer/Creality Print)
 ```ini
