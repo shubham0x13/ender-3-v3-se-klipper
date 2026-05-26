@@ -6,7 +6,7 @@ This repository contains the Klipper configuration and macros for the Ender 3 V3
 
 ## Klipper Installation Guide
 
-Follow this guide to install Klipper on your Ender 3 V3 SE: [Klipper Installation Guide](https://artamis.me/projects/klipper_guide/)
+Follow this guide by [@athem1s](https://github.com/athem1s) to install Klipper on your Ender 3 V3 SE: [Klipper Installation Guide](https://artamis.me/projects/klipper_guide/)
 
 ## Slicer Setup
 
